@@ -1,5 +1,5 @@
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
-    <h1> App </h1>
+    <h1> Next app </h1>
   )
 }

@@ -1,7 +1,12 @@
 import 'tailwindcss/tailwind.css'
 
-function MyApp({ Component, pageProps }) {
+interface AppProps {
+  Component: any
+  pageProps: any
+}
+
+function App({ Component, pageProps }: AppProps): JSX.Element {
   return <Component {...pageProps} />
 }
 
-export default MyApp
+export default App
